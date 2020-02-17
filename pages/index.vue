@@ -7,6 +7,17 @@
         </h2>
       </nuxt-link>
     </div>
+    <form name="contact" method="POST" netlify>
+      <p>
+        <label>Your Name: <input type="text" name="name" placeholder="後藤"></label>
+      </p>
+      <p>
+        <label>Message: <textarea name="message" placeholder="テストメッセージ"></textarea></label>
+      </p>
+      <p>
+        <button type="submit">Send</button>
+      </p>
+    </form>
   </div>
 </template>
 <script>
