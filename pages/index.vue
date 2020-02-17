@@ -8,7 +8,7 @@
       </nuxt-link>
     </div>
     <client-only>
-      <form name="contact" method="POST" netlify>
+      <form name="contact" method="POST">
         <input type="hidden" name="form-name" value="contact">
         <p>
           <label>Your Name: <input type="text" name="name" placeholder="後藤"></label>
